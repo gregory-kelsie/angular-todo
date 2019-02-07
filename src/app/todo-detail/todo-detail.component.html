@@ -1,0 +1,18 @@
+<div *ngIf="todo">
+<i (click)="goBack()" class="material-icons back-btn">keyboard_backspace</i>
+<h2>
+  {{todo.title}}
+</h2>
+<p>{{todo.description}}</p>
+
+<hr>
+<div style="position: relative;">
+<div class="edit-block">
+  <label>Todo </label><input type="text" [(ngModel)]="todo.title" required/>
+</div>
+<div class="edit-block">
+  <label>Description </label><textarea [(ngModel)]="todo.description"></textarea>
+  <i (click)="save()" class="material-icons save-btn">save</i>
+</div>
+</div>
+</div>

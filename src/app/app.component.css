@@ -1,0 +1,17 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#todoPanel {
+    background-color: #f4f4f4;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+
+h1 {
+    color: #fb7100;
+    font-family: Raleway, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}

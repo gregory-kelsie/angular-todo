@@ -1,0 +1,9 @@
+[
+    {"id": 1, "title": "Brush Teeth", "description": "Use toothbrush and toothpaste to clean teeth."},
+    {"id": 2, "title": "Get Dressed", "description": "Take off pyjamas and put on clothes."},
+    {"id": 3, "title": "Eat Breakfast", "description": "Make breakfast and eat it before going out."},
+    {"id": 4, "title": "Pack Bag", "description": "Pack bag with school supplies and lunch."},
+    {"id": 5, "title": "Walk to School", "description": "Leave the house and walk to school."},
+    {"id": 6, "title": "School", "description": "Attend classes, hang out with friends and learn"}
+
+]

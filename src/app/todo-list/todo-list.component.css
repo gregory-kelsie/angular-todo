@@ -1,0 +1,44 @@
+ul {
+    padding: 0;
+    width: 350px;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #fff;
+    width: 350px;
+    cursor: pointer;
+    cursor: hand;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: lighter;
+    border-left: 3px solid #fb7100;
+}
+
+.todoCheckbox {
+    margin: 0;
+    padding: 0;
+    top: 1px;
+    left: -5px;
+    zoom: 2;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    position: relative;
+    float: right;
+    color: #666;
+    top: 2px;
+}
+
+.delete-btn:hover {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+    font-family: Raleway;
+}

@@ -1,0 +1,20 @@
+
+<p *ngIf="errorMsg">Error: {{errorMsg}}</p>
+
+{{ todoCheckbox.checked }}
+<app-todo-create *ngIf="loadedTodos" [todoList]="todos"></app-todo-create>
+<ul>
+  
+  <div *ngFor="let todo of todos">
+
+    <li>
+        <input class="todoCheckbox" [(ngModel)]="todo.completed" type="checkbox"/>
+      <a routerLink="/todos/{{todo.id}}">
+        <span [style.text-decoration]="todo.completed ? 'line-through' : 'none'">{{todo.title}}</span>
+      </a>
+        <i *ngIf="todo.completed" class="material-icons delete-btn" (click)="delete(todo)">delete</i>
+    </li>
+  </div>
+</ul>
+
+

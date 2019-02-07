@@ -1,0 +1,6 @@
+<p *ngIf="errorMsg">{{errorMsg}}</p>
+
+<div style="width: 350px; margin: auto; position: relative;">
+<input (keyup)="clickedKey($event);" [(ngModel)]="todoTitle" type="text" placeholder="Add Todo"/>
+<i (click)="addTodo(todoTitle, ''); todoTitle = '';" class="material-icons add-btn">add</i>
+</div>

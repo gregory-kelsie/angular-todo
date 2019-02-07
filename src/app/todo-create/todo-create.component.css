@@ -1,0 +1,37 @@
+label {
+    display: block;
+}
+
+input[type="text"] {
+    margin-top: 15px;
+    color: #888;
+    font-family: Raleway, Cambria, Georgia, Times, 'Times New Roman', serif;
+    width: 335px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 250px;
+    height: 75px;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.add-btn {
+    color: white; 
+    font-weight: bold; 
+    width: 2em; 
+    background-color: orange; 
+    height: 2em; 
+    border-radius: 50%; 
+    font-size: 2em; 
+    position: absolute; 
+    right: -9px; 
+    padding: 0.55em 15px; 
+    cursor: pointer;
+}
